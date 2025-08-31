@@ -65,7 +65,7 @@ Search Agent → Summary Agent → Formatting Agent → Translation Agent → Te
 ### Setup
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/financial-news-bot.git
+git clone https://github.com/gujarvinit5-alt/financial-news-bot.git
 cd financial-news-bot
 
 # Create virtual environment
