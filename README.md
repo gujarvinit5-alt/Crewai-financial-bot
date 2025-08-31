@@ -309,8 +309,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-**Developer**: [Your Name]  
-**Email**: [your.email@domain.com]  
+**Developer**: Vinit Gujar  
+**Email**: gujarvinit5@gmail.com
+**Linkdin**:www.linkedin.com/in/vinit-gujar13
 **Project**: CrowdWisdomTrading Internship Assessment  
 **Completion**: August 2025
 
