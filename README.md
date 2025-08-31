@@ -1,4 +1,4 @@
-#crewai_financial_bot
+#Crewai_financial_bot
 
 
 Multi-Agent System for Real-Time Market Analysis
