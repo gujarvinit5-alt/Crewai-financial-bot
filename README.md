@@ -1,10 +1,16 @@
 #crewai_financial_bot
+
+
 Multi-Agent System for Real-Time Market Analysis
 Built as part of my internship assessment for CrowdWisdomTrading. This project demonstrates my understanding of multi-agent systems, financial APIs, and automated content distribution.
+
+
 Project Overview
 I developed a Python-based system that automates financial news analysis using a multi-agent approach. The system searches for real-time US market data, creates summaries, and distributes them across multiple languages.
 Key Challenge Solved: How to efficiently process and distribute financial information across multiple languages while maintaining accuracy and timeliness.
 Technical Implementation
+
+
 Agent Architecture
 I designed 5 specialized agents, each handling a specific part of the workflow:
 
@@ -14,12 +20,15 @@ Content Format: Applies professional formatting
 Translation: Handles multi-language conversion
 Distribution: Manages Telegram channel posting
 
+
 Technology Stack
 
 Backend: Python 3.11
 APIs: Groq (LLM), Tavily (News), Serper (Search), Telegram (Distribution)
 Architecture: Event-driven multi-agent system
 Data Processing: JSON parsing, content filtering, rate limiting
+
+
 
 Development Process
 Problem Analysis
