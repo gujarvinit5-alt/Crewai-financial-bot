@@ -301,11 +301,6 @@ This project was developed as an internship assessment. Future enhancements coul
 
 ---
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
 
 ## Contact
 
