@@ -296,8 +296,8 @@ This project was developed as an internship assessment. Future enhancements coul
 ## Demo
 
 **Live Results**: Check the Telegram channel for real-time outputs  
-**Video Demonstration**: [Link to demo video]  
-**Sample Outputs**: See `demo/sample_outputs.md` for example results
+**Video Demonstration**  
+**Sample Outputs**
 
 ---
 
