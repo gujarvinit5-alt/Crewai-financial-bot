@@ -77,7 +77,7 @@ venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 
 # Configure environment
-cp .env.example .env
+cp .env.bin .env
 # Edit .env with your API keys
 ```
 
