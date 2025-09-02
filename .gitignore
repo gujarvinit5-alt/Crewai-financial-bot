@@ -1,0 +1,4 @@
+.env
+/fresh_env
+/crewai_env
+/.vscode

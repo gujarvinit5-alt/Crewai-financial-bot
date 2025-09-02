@@ -1,0 +1,111 @@
+2025-09-02 10:28:51,438 - __main__ - INFO - Validating environment configuration...
+2025-09-02 10:28:51,438 - __main__ - INFO - All environment variables validated successfully
+2025-09-02 10:28:51,439 - __main__ - INFO - Initializing CrewAI Financial News System
+2025-09-02 10:28:51,439 - __main__ - INFO - Starting CrewAI Financial News Workflow Execution
+2025-09-02 10:28:51,439 - __main__ - INFO - Creating CrewAI Agents...
+2025-09-02 10:28:51,448 - __main__ - INFO - Creating CrewAI Tasks...
+2025-09-02 10:28:51,456 - __main__ - INFO - Executing CrewAI Workflow...
+2025-09-02 10:28:51,495 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-02 10:28:55,807 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-02 10:28:55,809 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-02 10:28:55,825 - __main__ - INFO - Agent 1: Starting financial news search...
+2025-09-02 10:28:55,825 - __main__ - INFO - Searching Tavily for: US stock market news today 2025-09-02 after hours
+2025-09-02 10:28:58,785 - __main__ - INFO - Tavily found 4 results
+2025-09-02 10:28:58,787 - __main__ - INFO - Searching Serper for: US stock market news today 2025-09-02 after hours
+2025-09-02 10:29:00,838 - __main__ - INFO - Serper found 4 results
+2025-09-02 10:29:03,842 - __main__ - INFO - Searching Tavily for: NYSE NASDAQ closing bell 2025-09-02 financial news
+2025-09-02 10:29:06,574 - __main__ - INFO - Tavily found 4 results
+2025-09-02 10:29:06,576 - __main__ - INFO - Searching Serper for: NYSE NASDAQ closing bell 2025-09-02 financial news
+2025-09-02 10:29:08,522 - __main__ - INFO - Serper found 4 results
+2025-09-02 10:29:13,218 - __main__ - INFO - Added Groq AI summary to results
+2025-09-02 10:29:13,219 - __main__ - INFO - Agent 1 completed: Found 12 total news items
+2025-09-02 10:29:13,228 - __main__ - INFO - Agent 1: Starting financial news search...
+2025-09-02 10:29:13,229 - __main__ - INFO - Searching Tavily for: US stock market news today 2025-09-02 after hours
+2025-09-02 10:29:16,599 - __main__ - INFO - Tavily found 4 results
+2025-09-02 10:29:16,601 - __main__ - INFO - Searching Serper for: US stock market news today 2025-09-02 after hours
+2025-09-02 10:29:18,132 - __main__ - INFO - Serper found 4 results
+2025-09-02 10:29:21,134 - __main__ - INFO - Searching Tavily for: NYSE NASDAQ closing bell 2025-09-02 financial news
+2025-09-02 10:29:25,205 - __main__ - INFO - Tavily found 4 results
+2025-09-02 10:29:25,208 - __main__ - INFO - Searching Serper for: NYSE NASDAQ closing bell 2025-09-02 financial news
+2025-09-02 10:29:27,027 - __main__ - INFO - Serper found 4 results
+2025-09-02 10:29:31,556 - __main__ - INFO - Added Groq AI summary to results
+2025-09-02 10:29:31,557 - __main__ - INFO - Agent 1 completed: Found 12 total news items
+2025-09-02 10:29:31,585 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-02 10:29:35,341 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-02 10:29:35,343 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-02 10:29:35,402 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-02 10:29:39,020 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-02 10:29:39,028 - LiteLLM - INFO - Wrapper: Completed Call, calling success_handler
+2025-09-02 10:29:39,194 - LiteLLM - INFO - 
+LiteLLM completion() model= llama-3.1-8b-instant; provider = groq
+2025-09-02 10:29:39,342 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-02 10:29:39,394 - __main__ - ERROR - Workflow execution failed: litellm.RateLimitError: RateLimitError: GroqException - {"error":{"message":"Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01jtq9f3zre5zahv4x15s1q34c` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 6722, Requested 3302. Please try again in 40.247s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing","type":"tokens","code":"rate_limit_exceeded"}}
+
+2025-09-02 10:32:15,186 - INFO - Validating environment...
+2025-09-02 10:32:15,186 - INFO - All environment variables validated
+2025-09-02 10:32:15,186 - INFO - Initializing Simple Financial Workflow
+2025-09-02 10:32:15,187 - INFO - ============================================================
+2025-09-02 10:32:15,187 - INFO - STARTING COMPLETE FINANCIAL WORKFLOW
+2025-09-02 10:32:15,187 - INFO - ============================================================
+2025-09-02 10:32:15,187 - INFO - STEP 1: Searching for financial news...
+2025-09-02 10:32:17,831 - INFO - Tavily found 3 results
+2025-09-02 10:32:19,786 - INFO - Serper found 3 results
+2025-09-02 10:32:25,937 - INFO - Tavily found 3 results
+2025-09-02 10:32:27,583 - INFO - Serper found 3 results
+2025-09-02 10:32:30,586 - INFO - STEP 1 COMPLETE: Found 12 news items
+2025-09-02 10:32:40,587 - INFO - STEP 2: Creating financial summary...
+2025-09-02 10:32:40,587 - INFO - Making Groq API call with 350 max tokens...
+2025-09-02 10:32:42,525 - INFO - Groq API call successful
+2025-09-02 10:32:42,527 - INFO - STEP 2 COMPLETE: Summary created
+2025-09-02 10:32:47,529 - INFO - STEP 3: Formatting content...
+2025-09-02 10:32:50,011 - INFO - Chart added
+2025-09-02 10:32:50,012 - INFO - STEP 3 COMPLETE: Content formatted
+2025-09-02 10:32:50,014 - INFO - STEP 4: Translating content...
+2025-09-02 10:32:50,015 - INFO - Translating to Arabic...
+2025-09-02 10:33:35,016 - INFO - Making Groq API call with 400 max tokens...
+2025-09-02 10:33:37,822 - INFO - Groq API call successful
+2025-09-02 10:33:37,823 - INFO - Arabic translation completed
+2025-09-02 10:33:37,825 - INFO - STEP 4 COMPLETE: Translations finished
+2025-09-02 10:33:42,825 - INFO - STEP 5: Sending to Telegram...
+2025-09-02 10:33:44,101 - INFO - English message sent successfully
+2025-09-02 10:33:50,624 - INFO - Arabic message sent successfully
+2025-09-02 10:33:50,628 - INFO - STEP 5 COMPLETE: Sent to 2 languages
+2025-09-02 10:33:50,629 - INFO - ============================================================
+2025-09-02 10:33:50,629 - INFO - WORKFLOW COMPLETED SUCCESSFULLY!
+2025-09-02 10:33:50,629 - INFO - Sent to languages: ['English', 'Arabic']
+2025-09-02 10:33:50,630 - INFO - ============================================================
+2025-09-02 10:38:42,382 - INFO - Validating environment...
+2025-09-02 10:38:42,383 - INFO - All environment variables validated
+2025-09-02 10:38:42,383 - INFO - Initializing Simple Financial Workflow
+2025-09-02 10:38:42,384 - INFO - ============================================================
+2025-09-02 10:38:42,384 - INFO - STARTING COMPLETE FINANCIAL WORKFLOW
+2025-09-02 10:38:42,385 - INFO - ============================================================
+2025-09-02 10:38:42,385 - INFO - STEP 1: Searching for financial news...
+2025-09-02 10:38:45,034 - INFO - Tavily found 3 results
+2025-09-02 10:38:52,603 - INFO - Tavily found 3 results
+2025-09-02 10:38:54,337 - INFO - Serper found 3 results
+2025-09-02 10:38:57,339 - INFO - STEP 1 COMPLETE: Found 9 news items
+2025-09-02 10:39:07,341 - INFO - STEP 2: Creating financial summary...
+2025-09-02 10:39:07,342 - INFO - Making Groq API call with 350 max tokens...
+2025-09-02 10:39:08,992 - INFO - Groq API call successful
+2025-09-02 10:39:08,995 - INFO - STEP 2 COMPLETE: Summary created
+2025-09-02 10:39:13,997 - INFO - STEP 3: Formatting content...
+2025-09-02 10:39:16,156 - INFO - Chart added
+2025-09-02 10:39:16,157 - INFO - STEP 3 COMPLETE: Content formatted
+2025-09-02 10:39:16,159 - INFO - STEP 4: Translating content...
+2025-09-02 10:39:16,160 - INFO - Translating to Arabic...
+2025-09-02 10:40:01,161 - INFO - Making Groq API call with 400 max tokens...
+2025-09-02 10:40:03,577 - INFO - Groq API call successful
+2025-09-02 10:40:03,581 - INFO - Arabic translation completed
+2025-09-02 10:40:03,582 - INFO - STEP 4 COMPLETE: Translations finished
+2025-09-02 10:40:08,584 - INFO - STEP 5: Sending to Telegram...
+2025-09-02 10:40:10,575 - INFO - English message sent successfully
+2025-09-02 10:40:17,701 - INFO - Arabic message sent successfully
+2025-09-02 10:40:17,703 - INFO - STEP 5 COMPLETE: Sent to 2 languages
+2025-09-02 10:40:17,703 - INFO - ============================================================
+2025-09-02 10:40:17,703 - INFO - WORKFLOW COMPLETED SUCCESSFULLY!
+2025-09-02 10:40:17,704 - INFO - Sent to languages: ['English', 'Arabic']
+2025-09-02 10:40:17,704 - INFO - ============================================================
